@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -name -empty "." 
+find .-empty $filename | cut -f 1 -d '.'
