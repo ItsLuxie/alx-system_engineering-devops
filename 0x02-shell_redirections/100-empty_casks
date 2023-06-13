@@ -1,2 +1,2 @@
 #!/bin/bash
-find .-empty $filename | cut -f 1 -d '.'
+find ./ type fd -empty|ls -a|head
