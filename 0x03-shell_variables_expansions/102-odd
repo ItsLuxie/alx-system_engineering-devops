@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne '/\n/ && print' file
+perl -lne 'print if $. %2==1'
